@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
+p {
+  margin-top: 40px;
+  font-weight: bolder;
+  background-color: #fff;
+  color: #000;
+  padding: 15px 30px;
+  transition: all .5s ease;
+}
+
+p:hover {
+  background-color: #00000000;
+  color: #fff;
+}
+
 .App {
   text-align: center;
 }
@@ -7,7 +28,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #191919;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,8 +36,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }
